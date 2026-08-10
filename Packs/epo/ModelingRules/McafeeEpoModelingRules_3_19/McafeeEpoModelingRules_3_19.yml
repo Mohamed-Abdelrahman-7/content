@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: epo_ModelingRule
+name: epo Modeling Rule
+rules: ''
+schema: ''
+tags: McafeeEpoModelingRules
+supportedModules:
+- xsiam
