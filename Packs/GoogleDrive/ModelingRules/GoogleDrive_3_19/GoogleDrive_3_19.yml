@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: GoogleDrive_ModelingRule
+name: GoogleDrive Modeling Rule
+rules: ''
+schema: ''
+tags: Google Drive
+supportedModules:
+- xsiam

@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: McAfeeDatabaseSecurity_ModelingRule
+name: McAfeeDatabaseSecurity Modeling Rule
+rules: ''
+schema: ''
+tags: McAfee Database Security
+supportedModules:
+- xsiam

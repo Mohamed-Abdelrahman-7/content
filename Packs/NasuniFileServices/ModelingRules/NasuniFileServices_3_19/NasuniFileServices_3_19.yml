@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: NasuniFileServices_ModelingRule
+name: NasuniFileServices Modeling Rule
+rules: ''
+schema: ''
+tags: nasuni
+supportedModules:
+- xsiam
