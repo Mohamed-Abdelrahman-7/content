@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: CitrixADC_ModelingRule
+name: CitrixADC Modeling Rule
+rules: ''
+schema: ''
+tags: Citrix ADC
+supportedModules:
+- xsiam

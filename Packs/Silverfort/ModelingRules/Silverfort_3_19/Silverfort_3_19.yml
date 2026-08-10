@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: Silverfort_ModelingRule
+name: Silverfort Modeling Rule
+rules: ''
+schema: ''
+tags: ''
+supportedModules:
+- xsiam
