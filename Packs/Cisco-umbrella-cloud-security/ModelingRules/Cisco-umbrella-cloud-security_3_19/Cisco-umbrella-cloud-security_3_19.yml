@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: Cisco-umbrella-cloud-security_ModelingRule
+name: Cisco-umbrella-cloud-security Modeling Rule
+rules: ''
+schema: ''
+tags: ''
+supportedModules:
+- xsiam
