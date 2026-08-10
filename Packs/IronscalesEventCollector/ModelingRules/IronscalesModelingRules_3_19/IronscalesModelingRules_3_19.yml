@@ -1,0 +1,8 @@
+fromversion: 8.15.0
+id: IronscalesEventCollector_ModelingRule
+name: IronscalesEventCollector Modeling Rule
+rules: ''
+schema: ''
+tags: ironscales
+supportedModules:
+- xsiam

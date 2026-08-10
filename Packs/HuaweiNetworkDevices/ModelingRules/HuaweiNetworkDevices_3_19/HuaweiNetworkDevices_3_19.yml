@@ -1,0 +1,9 @@
+
+fromversion: 8.15.0
+id: HuaweiNetworkDevices_ModelingRule
+name: HuaweiNetworkDevices Modeling Rule
+rules: ''
+schema: ''
+tags: ''
+supportedModules:
+- xsiam
