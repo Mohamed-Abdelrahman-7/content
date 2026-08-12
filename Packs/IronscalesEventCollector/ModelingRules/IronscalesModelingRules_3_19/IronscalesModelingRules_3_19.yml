@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: ironscales_modeling_rule
-name: IronscalesEventCollector Modeling Rule
+name: IRONSCALES Modeling Rule
 rules: ''
 schema: ''
 tags: ironscales

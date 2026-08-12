@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: Corelight_Zeek_ModelingRule
-name: CorelightZeek Modeling Rule
+name: Corelight Zeek Modeling Rules
 rules: ''
 schema: ''
 tags: ''
