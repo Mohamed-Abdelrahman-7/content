@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: ManageEngine-ADAudit_ModelingRule
+id: ManageEngine-ADAudit_modeling_rule
 name: ManageEngine-ADAudit Modeling Rule
 rules: ''
 schema: ''
