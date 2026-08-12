@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: GoogleDrive_ModelingRule
+id: google_drive_ModelingRule
 name: GoogleDrive Modeling Rule
 rules: ''
 schema: ''

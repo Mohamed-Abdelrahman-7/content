@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: CiscoNexus_ModelingRule
+id: cisco_nexus_modeling_rule
 name: CiscoNexus Modeling Rule
 rules: ''
 schema: ''

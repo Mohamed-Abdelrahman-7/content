@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: CiscoSMA_ModelingRule
+id: Cisco_Security_Management_Appliance
 name: CiscoSMA Modeling Rule
 rules: ''
 schema: ''

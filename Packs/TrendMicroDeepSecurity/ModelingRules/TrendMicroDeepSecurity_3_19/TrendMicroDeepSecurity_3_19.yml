@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: TrendMicroDeepSecurity_ModelingRule
+id: Trend_Micro_Deep_Security_ModelingRule
 name: TrendMicroDeepSecurity Modeling Rule
 rules: ''
 schema: ''
