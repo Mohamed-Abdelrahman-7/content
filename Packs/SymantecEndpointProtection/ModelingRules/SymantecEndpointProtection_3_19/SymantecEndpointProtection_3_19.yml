@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: SymantecEndpointProtection_ModelingRule
+id: Symantec_Endpoint_Protection_ModelingRule
 name: SymantecEndpointProtection Modeling Rule
 rules: ''
 schema: ''
