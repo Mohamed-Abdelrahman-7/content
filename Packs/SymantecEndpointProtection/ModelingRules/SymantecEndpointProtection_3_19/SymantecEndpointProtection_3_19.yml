@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: Symantec_Endpoint_Protection_ModelingRule
-name: SymantecEndpointProtection Modeling Rule
+name: Symantec Endpoint Protection Modeling Rule
 rules: ''
 schema: ''
 tags: ''

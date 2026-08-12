@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: zscaler_private_access_modeling_rule
-name: ZscalerZPA Modeling Rule
+name: Zscaler Private Access Modeling Rule
 rules: ''
 schema: ''
 tags: Zscaler Private Access
