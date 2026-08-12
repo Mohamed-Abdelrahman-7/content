@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: GuardiCore_ModelingRule
+id: Akamai_GuardiCore_ModelingRule
 name: GuardiCore Modeling Rule
 rules: ''
 schema: ''

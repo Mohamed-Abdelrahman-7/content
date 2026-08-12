@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: GitLab_ModelingRule
+id: gitlab_mapping_rules
 name: GitLab Modeling Rule
 rules: ''
 schema: ''
