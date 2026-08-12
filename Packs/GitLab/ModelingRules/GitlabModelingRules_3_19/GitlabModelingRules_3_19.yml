@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: gitlab_mapping_rules
-name: GitLab Modeling Rule
+name: Gitlab Mapping Rules
 rules: ''
 schema: ''
 tags: gitlab

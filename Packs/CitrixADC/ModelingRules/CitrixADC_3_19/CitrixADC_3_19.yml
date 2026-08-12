@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: Citrix_ADC_ModelingRule
-name: CitrixADC Modeling Rule
+name: Citrix ADC Modeling Rule
 rules: ''
 schema: ''
 tags: Citrix ADC

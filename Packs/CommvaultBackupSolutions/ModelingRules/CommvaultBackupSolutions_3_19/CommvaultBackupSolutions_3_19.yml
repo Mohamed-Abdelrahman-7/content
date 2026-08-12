@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: Commvault_Backup_Solutions_ModelingRule
-name: CommvaultBackupSolutions Modeling Rule
+name: Commvault Backup Solutions Modeling Rule
 rules: ''
 schema: ''
 tags:
