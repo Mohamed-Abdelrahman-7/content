@@ -2086,9 +2086,8 @@ script:
       required: false
       defaultValue: '50'
     - name: page_size
-      description: The maximum number of results to return per page. If the value is negative or exceeds 1000, the request is rejected.
+      description: The maximum number of results to return per page. If not set, results are fetched in pages of up to 1000 (the API maximum). If the value is negative or exceeds 1000, the request is rejected.
       required: false
-      defaultValue: '50'
     - name: page_token
       description: The token used to retrieve the next batch of results. Must be the value of LogEntryNextToken from the previous response.
       required: false

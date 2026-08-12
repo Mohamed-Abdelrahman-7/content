@@ -204,6 +204,9 @@ class GCPServices(Enum):
         return results
 
 
+# The maximum number of log entries the Cloud Logging entries.list API returns per page.
+MAX_LOGGING_PAGE_SIZE = 1000
+
 # Command requirements mapping: (GCP_Service_Enum, [Required_Permissions])
 COMMAND_REQUIREMENTS: dict[str, tuple[GCPServices, list[str]]] = {
     "gcp-compute-firewall-patch": (
@@ -2444,15 +2447,16 @@ def logging_log_entries_list(creds: Credentials, args: dict[str, Any]) -> Comman
     resource_names += [f"folders/{folder}" for folder in resource_folders]
 
     limit = arg_to_number(args.get("limit")) or 50
-    page_size = arg_to_number(args.get("page_size")) or 50
+    # The Cloud Logging API caps pageSize at 1000. Default the per-page size to that cap so a large
+    # limit is fetched in as few calls as possible; honor an explicit page_size only when provided.
+    page_size = arg_to_number(args.get("page_size")) or MAX_LOGGING_PAGE_SIZE
     page_token = args.get("page_token")
 
     logging_service = GCPServices.LOGGING.build(creds)
 
     entries: list[dict[str, Any]] = []
     next_token = page_token
-    # The Cloud Logging API caps pageSize at 1000, so accumulate pages internally until the
-    # requested limit is reached or there are no more results.
+    # Accumulate pages internally until the requested limit is reached or there are no more results.
     while len(entries) < limit:
         request_body: dict[str, Any] = {
             "resourceNames": resource_names,
