@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: forcepoint_dlp
-name: ForcepointDLP Modeling Rule
+name: Forcepoint DLP Modeling Rule
 rules: ''
 schema: ''
 tags: Forcepoint DLP
