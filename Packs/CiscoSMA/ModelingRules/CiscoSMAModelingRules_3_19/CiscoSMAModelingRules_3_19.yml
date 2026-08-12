@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: Cisco_Security_Management_Appliance
-name: CiscoSMA Modeling Rule
+name: Cisco Security Management Appliance
 rules: ''
 schema: ''
 tags: Cisco Security Management Appliance

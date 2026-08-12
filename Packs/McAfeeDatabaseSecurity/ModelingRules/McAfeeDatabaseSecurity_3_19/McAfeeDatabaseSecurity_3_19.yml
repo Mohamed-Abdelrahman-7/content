@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: McAfee_Database_Security_ModelingRule
-name: McAfeeDatabaseSecurity Modeling Rule
+name: McAfee Database Security Modeling Rule
 rules: ''
 schema: ''
 tags: McAfee Database Security

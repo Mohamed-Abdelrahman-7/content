@@ -1,6 +1,6 @@
 fromversion: 8.15.0
 id: google_drive_ModelingRule
-name: GoogleDrive Modeling Rule
+name: Google Drive Modeling Rule
 rules: ''
 schema: ''
 tags: Google Drive
