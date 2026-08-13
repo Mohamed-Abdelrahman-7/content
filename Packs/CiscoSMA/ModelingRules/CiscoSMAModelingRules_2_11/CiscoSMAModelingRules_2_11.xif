@@ -62,7 +62,6 @@ filter _raw_log contains "cli_logs" or _raw_log contains "Event: User logged out
     xdm.intermediate.process.command_line = command,
     xdm.source.host.ipv4_addresses = arraycreate(coalesce(destination_ip, "")),
     xdm.source.ipv4 = Sourceip,
-    xdm.observer.product = appliance,
     xdm.intermediate.process.executable.path = location,
     xdm.event.type = event;
 
