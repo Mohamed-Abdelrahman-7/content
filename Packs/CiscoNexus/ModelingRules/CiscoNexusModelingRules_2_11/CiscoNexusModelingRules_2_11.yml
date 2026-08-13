@@ -1,6 +1,6 @@
 fromversion: 8.15.0
-id: cisco_nexus_modeling_rule
-name: Cisco Nexus
+id: CiscoNexus_ModelingRule
+name: CiscoNexus Modeling Rule
 rules: ''
 schema: ''
 tags: Cisco Nexus
