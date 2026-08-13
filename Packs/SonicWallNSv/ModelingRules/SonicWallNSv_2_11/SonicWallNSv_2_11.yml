@@ -1,6 +1,6 @@
 fromversion: 8.15.0
-id: SonicWallNSv
-name: SonicWall NSv
+id: SonicWallNSv_ModelingRule
+name: SonicWallNSv Modeling Rule
 rules: ''
 schema: ''
 tags: SonicWallNSv

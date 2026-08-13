@@ -1,5 +1,5 @@
 fromversion: 8.15.0
-id: aws_guard_duty_modeling_rule
+id: AWSGuardDuty_ModelingRule
 name: AWSGuardDuty Modeling Rule
 rules: ''
 schema: ''
